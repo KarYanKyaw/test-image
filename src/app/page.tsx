@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-const url = "https://elibrary-demo-b.origin.com.mm/api";
+const url = "https://library-b.origin.com.mm/api";
 import useSWR from "swr"; // Import SWRResponse
 import { useInView } from "react-intersection-observer";
 
