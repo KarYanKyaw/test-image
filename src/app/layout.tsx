@@ -13,8 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Test Image",
-  description: "Test Image",
+  title: {
+    default: "OBS E-Library",
+    template: "%s - OBS E-Library",
+  },
+  description:
+    "A platform where you can buy in-game currency at the best prices.",
+  icons: "/logo2.png",
 };
 
 export default function RootLayout({
